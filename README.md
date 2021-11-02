@@ -32,8 +32,8 @@ import RateCard from 'react-rate-card';
   coins={["coin"]} // array of coins
   currencies={["currencier"]} // array of currencies 
   defaultSelected="coin" // default selected coin
-  currencylayer_access_key="your http://apilayer.net/api/live api key"
-  coinslayer_access_key="your http://api.coinlayer.com/api/live api key"
+  currencylayer_access_key="http://apilayer.net/api/live api key"
+  coinslayer_access_key="http://api.coinlayer.com/api/live api key"
   customStyles={{...styles}} // style props for the rate card
   customClass="className" // classname to style the rate card
   inputClass="classname" // classname to style inputs
@@ -53,16 +53,16 @@ import RateCard from 'react-rate-card';
 
 | Name                                               | Type       | Default       | Description                                                |
 | -------------------------------------------------- | ---------- | -------------- | ----------------------------------------------------------|
-| coins                                              | `array`    | `["XLM", "USDT"]`       | array of coins                                   |
+| coins                                              | `array`    | `["XLM", "USDT"]`       | Array of coins                                   |
 | currencies                            | `array`  | `["XLM", "USDT", "KES", "RWF", "TZS"]`| Array of currencies                               |
 | defaultSelected                                    | `string`   | `XLM`    | Default selected coin                                           |
-| currencylayer_access_key                                   | `string`   |    `null`       | your http://apilayer.net/api/live api key **(Required)**                          |
-| coinslayer_access_key                                      | `string` | `null`               | your http://api.coinlayer.com/api/live api key **(Required)**                 |
-| customStyle                                   | `React.CSSProperties`   |    `null`       | style props for the rate card                                 |
-| customClass                                      | `string` | `null`               | classname to style the rate card                        |
-| inputClass                            | `string`  | `null`| classname to style inputs                                                        |
-| inputStyle                                    | `React.CSSProperties`   | `null`    |  style props for inputs                                          |
-| currencyStyle                                   | `React.CSSProperties`   |    `null`       | style props for currencies section                                |
-| currencyClass                                      | `string` | `null`               | cclassname to style currencies section                        |
-| errorStyle                            | `React.CSSProperties`  | `null`| style props to for error message                               |
-| errorClass                                    | `string`   | `null`    | classname to style error message                                          |
+| currencylayer_access_key                                   | `string`   |    `null`       | http://apilayer.net/api/live api key **(Required)**                          |
+| coinslayer_access_key                                      | `string` | `null`               | http://api.coinlayer.com/api/live api key **(Required)**                 |
+| customStyle                                   | `React.CSSProperties`   |    `null`       | Style props for the rate card                                 |
+| customClass                                      | `string` | `null`               | Classname to style the rate card                        |
+| inputClass                            | `string`  | `null`| Classname to style inputs                                                        |
+| inputStyle                                    | `React.CSSProperties`   | `null`    |  Style props for inputs                                          |
+| currencyStyle                                   | `React.CSSProperties`   |    `null`       | Style props for currencies section                                |
+| currencyClass                                      | `string` | `null`               | Classname to style currencies section                        |
+| errorStyle                            | `React.CSSProperties`  | `null`| Style props to for error message                               |
+| errorClass                                    | `string`   | `null`    | Classname to style error message                                          |
