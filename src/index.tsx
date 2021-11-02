@@ -70,8 +70,8 @@ const customCurrencyConverter = (
   })
 
   // coinslayer
-  let coinslayerApi = `http://api.coinlayer.com/api/live?access_key=${coinslayer_access_key}&symbols=${newCoins}&target=USD`
-  let currencylayerApi = `http://apilayer.net/api/live?access_key=${currencylayer_access_key}&currencies=${newCurrencies}&source=USD&format=1`
+  let coinslayerApi = `https://api.coinlayer.com/api/live?access_key=${coinslayer_access_key}&symbols=${newCoins}&target=USD`
+  let currencylayerApi = `https://apilayer.net/api/live?access_key=${currencylayer_access_key}&currencies=${newCurrencies}&source=USD&format=1`
 
   // fetch coins
   axios
