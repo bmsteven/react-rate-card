@@ -1,1 +1,0 @@
-# react-rate-card
