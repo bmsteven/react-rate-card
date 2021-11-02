@@ -2,10 +2,11 @@
 
 [![npm](https://img.shields.io/npm/v/react-rate-card)](https://www.npmjs.com/package/react-rate-card) [![NPM](https://img.shields.io/npm/l/react-rate-card)](https://www.npmjs.com/package/react-rate-card)
 - [React Rate Card Component](#react-rate-card)
-  - [Features](#features)
-  - [Installation](#Installation)
-  - [Usage](#usage)
-  - [Props](#props)
+  - [Features](#features)  
+  - [Installation](#Installation)  
+  - [Usage](#usage)  
+  - [Examples](#examples)  
+  - [Props](#props)  
 
 ## Features
 
@@ -43,6 +44,10 @@ import RateCard from 'react-rate-card';
   errorClass="classname" // classname to style error message
 />
 ```
+
+## Examples
+
+[![NPM](https://github.com/bmsteven/react-rate-card/tree/v1.0.6/example)](https://github.com/bmsteven/react-rate-card/tree/v1.0.6/example)
 
 ## Props                                    
 
