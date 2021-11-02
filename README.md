@@ -47,7 +47,7 @@ import RateCard from 'react-rate-card';
 
 ## Examples
 
-[https://github.com/bmsteven/react-rate-card/tree/main/example](https://github.com/bmsteven/react-rate-card/tree/v1.0.6/example)
+[https://github.com/bmsteven/react-rate-card/tree/main/example](https://github.com/bmsteven/react-rate-card/tree/main/example)
 
 ## Props                                    
 
