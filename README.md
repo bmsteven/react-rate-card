@@ -48,7 +48,7 @@ import RateCard from 'react-rate-card';
 
 ## Examples
 
-[Source code](https://github.com/bmsteven/react-rate-card/tree/main/example)
+[Source code](https://github.com/bmsteven/react-rate-card/tree/main/example)  
 [Demo](https://react-rate-card.netlify.app)
 
 ## Props
