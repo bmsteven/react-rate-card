@@ -1,7 +1,7 @@
 import RateCard from "react-rate-card"
-const coinslayer_access_key: string = process.env.REACT_APP_COINSLAYER_KEY!
+const coinslayer_access_key: string = process.env.AMPLIFY_MONOREPO_COINSLAYER_KEY!
 const currencylayer_access_key: string =
-  process.env.REACT_APP_CURRENCYLAYER_KEY!
+  process.env.AMPLIFY_DIFF_CURRENCYLAYER_KEY!
 
 const App = () => {
   return (
